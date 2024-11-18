@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    Enter the First Number: <input type="number" id="fn"> <br><br>
+    Enter the Second Number: <input type="number" id="sn"> <br><br>
+    <button onclick="sum()">Add</button><br><br>
+    Sum = <input type="text" id="ans" readonly>
+</body>
+<script>
+    function sum(){
+        let a= document.getElementById("fn").value;
+        let b= document.getElementById("sn").value;
+        document.getElementById("ans").value = parseInt(a)+parseInt(b);
+    }
+</script>
+</html>

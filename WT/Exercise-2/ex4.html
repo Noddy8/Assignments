@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    Celsius : <input type="text" id="c">
+    <button onclick="con()">Convert</button>
+    Fehrenheit : <input type="text" id="f">
+</body>
+<script>
+    function con(){
+        let y = document.getElementById("c").value;
+        let x = (parseInt(y) * 1.8) +32 
+        document.getElementById("f").value = x
+    }
+
+</script>
+</html>
