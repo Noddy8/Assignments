@@ -5,3 +5,9 @@ Percentage >= 70% : Grade C
 Percentage >= 60% : Grade D
 Percentage >= 40% : Grade E
 Percentage < 40% : Print Fail Message'''
+print("Enter your marks as per the subject...")
+Physics = (int(input("Physics: ")))
+Chemistry = (int(input("Chemistry: ")))
+Biology = (int(input("Biology: ")))
+Mathematics = (int(input("Mathematics: ")))
+Computer = (int(input("Computer: ")))
