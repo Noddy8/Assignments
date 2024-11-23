@@ -14,8 +14,9 @@ Computer = (int(input("Computer: ")))
 
 total = Physics + Chemistry + Biology + Mathematics + Computer
 Percentage = total/500*100
+Percentage = int(Percentage)
 print("Percentage =",Percentage)
-if Percentage >= 90 and Percentage < 100: 
+if Percentage >= 90 and Percentage < 100 or Percentage == 100: 
     print("Grade A")
 elif Percentage >= 80 and Percentage < 100: 
     print("Grade B")
